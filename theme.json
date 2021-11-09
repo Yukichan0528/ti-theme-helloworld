@@ -9,6 +9,8 @@
     "1.0.0": "Theme initialization"
   },
   "require": {
+    "igniter.demo": "*",
+    "igniter.frontend": "*",
     "test.helloworld": "*"
   }
 }

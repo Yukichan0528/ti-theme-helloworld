@@ -2,6 +2,18 @@
 title: Getting Started
 layout: default
 permalink: /
+
+'[block]':
+    code: block
+
+'[helloworldChild1]':
+
+'[featuredItems]':
+    items: ['6', '7', '8', '9']
+    limit: 3
+    itemsPerRow: 3
+    itemWidth: 400
+    itemHeight: 300
 ---
 
 <div class="container">
@@ -19,5 +31,12 @@ permalink: /
                 <img class="img-fluid rounded" src="https://tastyigniter.com/assets/ui/images/mockups/Menus-v2.png" alt="TastyIgniter Frontend">
             </p>
         </div>
+
+        @component('block')
+
+        @component('helloworldChild1')
+
+        @component('featuredItems')
+
     </div>
 </div>
