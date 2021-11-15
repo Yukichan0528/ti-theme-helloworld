@@ -1,0 +1,16 @@
+{
+  "code": "helloworld",
+  "parent": null,
+  "name": "Hello World Theme",
+  "description": "This theme is practice of tastyigniter themes. Copied from demo.",
+  "author": "TastyIgniter Dev Team",
+  "version": "1.0.0",
+  "tags": {
+    "1.0.0": "Theme initialization"
+  },
+  "require": {
+    "igniter.demo": "*",
+    "igniter.frontend": "*",
+    "test.helloworld": "*"
+  }
+}
